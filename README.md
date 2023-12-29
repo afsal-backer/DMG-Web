@@ -50,3 +50,12 @@ npm run test
 
 Based on how you configured the wdio.conf.ts file (to run on locally or on BrowserStack), this command will run the tests on BrowserStack or locally
 Default setting is to run on local.
+
+
+## Reporting
+
+This project uses Allure reporting and BrowserStack TestObservability.
+
+To generate allure report, after running the test, run the command: allure serve allure-results
+
+To view TestObservability report, after execution, log into TestObservability and check the build runs.
