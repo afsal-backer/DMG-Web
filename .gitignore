@@ -1,0 +1,11 @@
+/node_modules
+/allure-results
+/allure-report
+!/allure-report/index.html
+!/allure-report/favicon.ico
+!/allure-report/status.json
+.vs
+browserstack.err
+local.log
+logs/bstack-wdio-service.log
+.DS_Store

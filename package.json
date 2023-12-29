@@ -1,0 +1,26 @@
+{
+  "name": "dmg-web",
+  "version": "1.0.0",
+  "description": "DMG Test For Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.ts"
+  },
+  "author": "Afsal Backer",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.27.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@wdio/allure-reporter": "^8.27.0",
+    "@wdio/cucumber-framework": "^8.27.0",
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/spec-reporter": "^8.27.0",
+    "chai": "^4.3.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "wdio-wait-for": "^3.0.10",
+    "@wdio/browserstack-service": "^8.27.0"
+  }
+}
