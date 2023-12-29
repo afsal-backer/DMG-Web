@@ -9,3 +9,4 @@ browserstack.err
 local.log
 logs/bstack-wdio-service.log
 .DS_Store
+.vscode
